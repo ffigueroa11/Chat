@@ -1,0 +1,24 @@
+html, body {
+	font-family: 'Times New Roman','Arial';
+}
+.encabezado{
+	background-color: rgb(209,102,2);
+}
+main, #messages-card {
+	height: 100%;
+	padding-bottom: 0;
+}
+#messages-card-container{
+	height: calc(100% - 150px);
+	padding-bottom: 0;
+}
+#messages-card{
+	margin-top: 15px;
+}
+#user-container #user-pic{
+	top:-3px;
+	position: relative;
+	display: inline-block;
+	
+
+}
